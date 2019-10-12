@@ -1,6 +1,11 @@
 package com.codegym;
 
 
+import com.codegym.formatter.PersonFormatter;
+import com.codegym.service.PersonService;
+import com.codegym.service.PositionService;
+import com.codegym.service.ipml.PersonServiceImpl;
+import com.codegym.service.ipml.PositionServiceImpl;
 import org.apache.commons.io.FileUtils;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -123,20 +128,16 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
     }
 
 
-    //
-//
-//
-//
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry
-                .addResourceHandler("/img/**")
+                .addResourceHandler("/**")
                 .addResourceLocations("/images/");
-        // Default..
+
     }
 
-    //    //    //upload
-//
+    //upload
+
     @Override
     public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
         configurer.enable();
@@ -149,9 +150,23 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
 
         return resover;
     }
+
+    //
+
+    @Bean
+    public PersonService personService() {
+        return new PersonServiceImpl();
+    }
+
+    @Bean
+    public PositionService positionService() {
+        return new PositionServiceImpl();
+    }
+
 //
-//    //add static folder
-//
-//
-//
+//    @Override
+//    public void addFormatters(FormatterRegistry registry) {
+//        registry.addFormatter(new PersonFormatter(applicationContext.getBean(PersonService.class)));
+//    }
+
 }
