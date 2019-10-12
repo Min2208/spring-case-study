@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d3b4cb4-35c5-4561-bd83-f2ccb47790dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.html" afterDir="false" />
-    </list>
+    <list default="true" id="6d3b4cb4-35c5-4561-bd83-f2ccb47790dd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +171,7 @@
       <workItem from="1570813958135" duration="81000" />
       <workItem from="1570815304390" duration="38000" />
       <workItem from="1570815462002" duration="2951000" />
-      <workItem from="1570846671741" duration="27801000" />
+      <workItem from="1570846671741" duration="28044000" />
     </task>
     <task id="LOCAL-00001" summary="Add file">
       <created>1570850684578</created>
@@ -225,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570900439689</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="search commit">
+      <created>1570901965467</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1570901965467</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +258,8 @@
     <MESSAGE value="Edit complete" />
     <MESSAGE value="delete complete" />
     <MESSAGE value="view info" />
-    <option name="LAST_COMMIT_MESSAGE" value="view info" />
+    <MESSAGE value="search commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="search commit" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
