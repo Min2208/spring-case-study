@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d3b4cb4-35c5-4561-bd83-f2ccb47790dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/formatter/PersonFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/minhvuong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/quanghai.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/valam.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/vanhau.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/xuantruong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tiendung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tronghoang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/vanquyet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/vantoan.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -21,7 +19,8 @@
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codegym/ApplicationConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/case-study-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/case-study-1.0-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/upload.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +41,8 @@
         <option value="ApplicationConfig" />
         <option value="ApplicationInitializer" />
         <option value="gitignore" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -69,7 +68,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -83,8 +82,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/images" />
       <recent name="$PROJECT_DIR$/src/main/webapp/images" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/page" />
     </key>
@@ -191,7 +192,7 @@
       <workItem from="1570813958135" duration="81000" />
       <workItem from="1570815304390" duration="38000" />
       <workItem from="1570815462002" duration="2951000" />
-      <workItem from="1570846671741" duration="17239000" />
+      <workItem from="1570846671741" duration="24031000" />
     </task>
     <task id="LOCAL-00001" summary="Add file">
       <created>1570850684578</created>
@@ -214,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570854811642</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add member, add image">
+      <created>1570877590853</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570877590853</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +247,8 @@
     <MESSAGE value="Add file" />
     <MESSAGE value="Add file image" />
     <MESSAGE value="Add commit add files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add commit add files" />
+    <MESSAGE value="Add member, add image" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add member, add image" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -248,7 +257,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java</url>
-          <line>166</line>
+          <line>160</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

@@ -25,6 +25,14 @@
             <td><input th:field="*{address}" type="text"></td>
         </tr>
         <tr>
+            <td>Height</td>
+            <td><input th:field="*{height}" type="text"></td>
+        </tr>
+        <tr>
+            <td>Weight</td>
+            <td><input th:field="*{weight}" type="text"></td>
+        </tr>
+        <tr>
             <td>Position</td>
             <td><select name="position">
                 <option th:each="p : ${position}" th:text="${p.name}" th:value="${p.id}"></option>

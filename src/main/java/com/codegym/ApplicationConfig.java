@@ -1,12 +1,10 @@
 package com.codegym;
 
 
-import com.codegym.formatter.PersonFormatter;
 import com.codegym.service.PersonService;
 import com.codegym.service.PositionService;
 import com.codegym.service.ipml.PersonServiceImpl;
 import com.codegym.service.ipml.PositionServiceImpl;
-import org.apache.commons.io.FileUtils;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationContext;
@@ -16,7 +14,6 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.data.web.config.EnableSpringDataWebSupport;
-import org.springframework.format.FormatterRegistry;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.JpaVendorAdapter;
@@ -26,7 +23,6 @@ import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.multipart.MultipartResolver;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
-import org.springframework.web.multipart.support.StandardServletMultipartResolver;
 import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
@@ -39,8 +35,6 @@ import org.thymeleaf.templatemode.TemplateMode;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
-import javax.servlet.MultipartConfigElement;
-import javax.servlet.ServletRegistration;
 import javax.sql.DataSource;
 import java.util.Properties;
 
