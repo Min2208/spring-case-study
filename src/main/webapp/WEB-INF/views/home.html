@@ -28,7 +28,7 @@
             <td th:text="${p.position.name}"></td>
             <td><a th:href="@{/home/{id}(id=${p.id})}"><img alt="" th:src="@{${p.getImg()}}"></a></td>
             <td><a th:href="@{/edit/{id}(id=${p.id})}">Edit</a></td>
-            <td><a href="">Delete</a></td>
+            <td><a th:href="@{/delete/{id}(id=${p.id})}">Delete</a></td>
             <td><a href="">Add</a></td>
         </tr>
     </table>
