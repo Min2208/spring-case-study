@@ -131,7 +131,7 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry
                 .addResourceHandler("/img/**")
-                .addResourceLocations("/home/min2208/Documents/case-study/src/main/webapp/WEB-INF/images/");
+                .addResourceLocations("/images/");
         // Default..
     }
 
