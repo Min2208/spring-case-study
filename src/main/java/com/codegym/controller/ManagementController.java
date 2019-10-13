@@ -35,7 +35,7 @@ public class ManagementController {
 
 
     @GetMapping("home")
-    public ModelAndView home(@RequestParam Optional<String> s,
+    public ModelAndView home(@RequestParam("s") Optional<String> s,
                              @RequestParam(defaultValue = "0") int page,
                              @RequestParam(defaultValue = "5") int size, Pageable pageable){
         pageable= new PageRequest(page,size);
@@ -43,8 +43,10 @@ public class ManagementController {
         Page<Person> personPage;
         if (s.isPresent()){
             personPage=personService.search(s.get(),pageable);
+            modelAndView.addObject("search", s.get());
         }else {
             personPage=personService.findAll(pageable);
+            modelAndView.addObject("search", "");
         }
 
         modelAndView.addObject("persons",personPage);
